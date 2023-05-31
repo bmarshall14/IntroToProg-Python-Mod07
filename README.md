@@ -15,6 +15,9 @@ Creating the script: The first thing to do when pickling data is to import the p
 
 From there, it was time to define my pickling functions. To pickle the data retrieved from the user, I defined a function, baking_with_pickles. In this function, I wrote the data obtained from the Recipe Class and wrote it to a new binary file called recipe.db (defined in the main body of the script). In the case that there is no file to save, the user will receive an error and inform them that their data was not saved. A second pickle-related function was defined in order to allow the user to see the data that was saved. While pickling is useful for storing data, it is not useful for users. To make this program more user-friendly, I defined pickle_to_text, a function which dumps the pickle database into a new file. 
 
+![Figure 1. example](Figure_1.png)
+
+
 After defining the necessary processing functions, I wrote the input/output section of the script. In this program, there is one user input function and one user output function required. The needed input function allows the user to input data associated with the recipe they’d like to store. In this function, I built in an exception to ensure the user inputs the baking time as a number value, rather than a string. This is helpful to ensure the correct information is collected and stored from the user. The output function enables the program to display the user input information back to the user. 
 
 Once all functions were defined, I called each function in the main body of the script and defined the necessary variables and/or filenames required for each function. To ensure the main body of the script was working correctly, I tested this program in both PyCharm and Terminal. After running the code, two files were created in my working directory, recipe.db and recipe.txt. 
