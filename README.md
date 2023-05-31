@@ -6,7 +6,7 @@ IT FDN 110 A
 
 Assignment 7
 
-https://github.com/bmarshall14/IntroToProg-Python
+https://github.com/bmarshall14/IntroToProg-Python-Mod07
 
                                               Assignment 7: Utilizing pickles and exceptions
 
